@@ -64,7 +64,7 @@ body > header > figure {
   align-self: center;
   justify-self: center;
 }
-body > header > figure > svg {
+body > header > figure > img {
   height: 60px;
 }
 body > header > h1 {
@@ -101,7 +101,7 @@ body > header > nav > ul > li > a {
 #section1 > figure img {
   width: 25vw;
 }
-#section1 > h1 {
+#section1 > h2 {
   text-transform: uppercase;
   font-family: Montserrat;
   font-size: 3.5rem;
@@ -134,13 +134,28 @@ body > header > nav > ul > li > a {
   font-weight: bold;
   color: rgb(255, 255, 255);
   margin: 5vh 0 10vh 0;
+  text-align: center;
 }
 #section2 > section {
   width: 95%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2vw;
+}
+@media (min-width: 768px) {
+  #section2 > section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  #section2 > section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  #section2 > section {
+    grid-template-columns: 1fr;
+  }
 }
 #section2 > section > article {
   display: flex;
@@ -170,6 +185,7 @@ body > header > nav > ul > li > a {
   font-weight: bold;
   color: rgb(255, 255, 255);
   margin: 0 0 2vh 0;
+  text-align: center;
 }
 #section2 > section > article > section > h4 {
   text-transform: uppercase;
@@ -178,6 +194,7 @@ body > header > nav > ul > li > a {
   font-weight: lighter;
   color: rgb(255, 255, 255);
   margin: 5vh 0 10vh 0;
+  text-align: center;
 }
 #section2 > section > article > section > p {
   font-family: Montserrat;
@@ -201,13 +218,28 @@ body > header > nav > ul > li > a {
   font-weight: bold;
   color: rgb(255, 255, 255);
   margin: 5vh 0 10vh 0;
+  text-align: center;
 }
 #section3 > section {
   width: 95%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2vw;
+}
+@media (min-width: 768px) {
+  #section3 > section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  #section3 > section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  #section3 > section {
+    grid-template-columns: 1fr;
+  }
 }
 #section3 > section > article {
   display: flex;
@@ -254,6 +286,7 @@ body > header > nav > ul > li > a {
   font-weight: bold;
   color: rgb(255, 255, 255);
   margin: 5vh 0 10vh 0;
+  text-align: center;
 }
 #section4 > ul {
   width: 100vw;
@@ -274,7 +307,6 @@ body > footer {
   padding: 10px;
 }
 body > footer > figure {
-  height: 100%;
   align-self: center;
   justify-self: center;
 }
@@ -294,7 +326,7 @@ body > footer > p {
   color: rgb(255, 255, 255);
   text-align: center;
   font-family: Montserrat;
-  margin-bottom: 20px 0;
+  margin-bottom: 30px;
 }
 body > footer > nav > ul {
   display: flex;
