@@ -1,0 +1,182 @@
+#section1{
+    background-image: $background-gradient, url("../../images/cemetery.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > figure{
+        margin-top: 25vh;
+        img{
+            width: 25vw;
+        }
+    }
+    > h1{
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: $white;
+        margin: 5vh 0 10vh 0;
+        text-align: center;
+    }
+    > p{
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: $white;
+        margin: 5vh 0 10vh 0;
+        text-align: center;
+    }
+}
+
+#section2{
+    background: $background-gradient2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > h2{
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-size: 3.2rem;
+        font-weight: bold;
+        color: $white;
+        margin: 5vh 0 10vh 0;
+    }
+    > section{
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2vw;
+        > article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            > header{
+                height: 20vh;
+                > figure{
+                    height: 100%;
+                    > img{
+                        height: 100%;
+                    }
+                }
+            }
+            > section{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                > h3{
+                    text-transform: uppercase;
+                    font-family: Montserrat;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    color: $white;
+                    margin: 0 0 2vh 0;
+                }
+                > h4{
+                    text-transform: uppercase;
+                    font-family: Montserrat;
+                    font-size: 1.4rem;
+                    font-weight: lighter;
+                    color: $white;
+                    margin: 5vh 0 10vh 0;
+                    
+                }
+                > p{
+                    font-family: Montserrat;
+                    font-size: 1.2rem;
+                    color: $white;
+                    margin: 1vh 0 10vh 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+#section3{
+    background: $background-gradient3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > h2{
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-size: 3.2rem;
+        font-weight: bold;
+        color: $white;
+        margin: 5vh 0 10vh 0;
+    }
+    > section{
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 2vw;
+        > article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            > h3{
+                text-transform: uppercase;
+                font-family: Montserrat;
+                font-size: 1rem;
+                font-weight: bold;
+                color: $white;
+                margin: 0 0 2vh 0;
+            }
+            > p{
+                font-family: Montserrat;
+                font-size: 1rem;
+                color: $white;
+                margin: 1vh;
+                &:first-of-type{
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    > figure{
+        margin: 40vh 0;
+        > img{
+            width: 20vw;
+        }
+    }
+}
+#section4{
+    background: $background-gradient2;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > h2{
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-size: 3.2rem;
+        font-weight: bold;
+        color: $white;
+        margin: 5vh 0 10vh 0;
+    }
+    > ul{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5vh 0 50vh 0;
+        > li{
+            
+            > img{
+                width: 10vw;
+            }
+        }
+    }
+
+}

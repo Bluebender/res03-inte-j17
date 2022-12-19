@@ -1,0 +1,13 @@
+@import "reset";
+@import "vars";
+@import "header";
+@import "main";
+@import "footer";
+
+.hidden{
+    display: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
